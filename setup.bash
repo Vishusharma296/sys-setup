@@ -14,17 +14,16 @@ if [ $NAME="Ubuntu" ]; then
 fi
 #---------------------- PACKAGES ----------------------
 sudo $INSTALLER install tmux -y
-sudo $INSTALLER install fish -y
 sudo $INSTALLER install curl -y
 sudo $INSTALLER install wget -y
 sudo $INSTALLER install unzip -y
 sudo $INSTALLER install tar -y
 sudo $INSTALLER install gzip -y
+sudo $INSTALLER install btop -y
 
-# sudp $INSTALLER install googler -y
 sudo $INSTALLER install build-essential -y
 sudo $INSTALLER install gdb -y
-# sudo $INSTALLER install npm -y
+sudo $INSTALLER install npm -y
 sudo $INSTALLER install ripgrep -y
 sudo $INSTALLER install direnv -y
 sudo $INSTALLER install bat -y
@@ -47,15 +46,13 @@ sudo apt autoremove
 
 
 # github cli gh
-
-
 # github auth for git
 
 
 # ---------------setup git-------
 
-# git config --global user.name "linem.davton"
-#git config --global user.email "linemdavton@gmail.com"
+git config --global user.name "Vishusharma"
+git config --global user.email "vishusharma296@gmail.com"
 
 #---------------------- DOT FILES ----------------------
 # echo ".cfg" >.gitignore
@@ -64,10 +61,7 @@ sudo apt autoremove
 
 
 #---------------------- OBSIDIAN----------------------
-# setup obsidian
-# sudo snap install --classic obsidian
-# git clone https://github.com/linem-davton/obsidianvault.git $HOME/obsidian
-# sudo apt-get install "fonts-cmu"
+
 
 
 #---------------------- FZF ----------------------
